@@ -12,4 +12,5 @@
     name: php7.1-fpm
     state: reloaded
 
-- include: reload_nginx.yml
+- name: reload nginx
+  include: reload_nginx.yml
